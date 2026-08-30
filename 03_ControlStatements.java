@@ -4,6 +4,7 @@ class ControlStatements {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // If else
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
@@ -15,25 +16,31 @@ class ControlStatements {
             System.out.println("Zero");
         }
 
+        // For loop
         System.out.println("For loop:");
         for (int i = 1; i <= 5; i++) {
             System.out.println(i);
         }
 
+        // While loop
         System.out.println("While loop:");
         int i = 1;
+
         while (i <= 5) {
             System.out.println(i);
             i++;
         }
 
+        // Do while loop
         System.out.println("Do while loop:");
         int j = 1;
+
         do {
             System.out.println(j);
             j++;
         } while (j <= 5);
 
+        // Switch case
         System.out.print("Enter a choice from 1 to 3: ");
         int choice = sc.nextInt();
 
